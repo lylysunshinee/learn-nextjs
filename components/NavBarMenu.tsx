@@ -17,6 +17,9 @@ export default function NavBarMenu(props: NavBarMenuProps) {
         <Link href="/joke" passHref>
           <Nav.Link>Joker</Nav.Link>
         </Link>
+        <Link href="/books" passHref>
+          <Nav.Link>Books</Nav.Link>
+        </Link>
         <Link href="/about" passHref>
           <Nav.Link>About</Nav.Link>
         </Link>
